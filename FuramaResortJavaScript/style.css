@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Century Gothic";
+}
+/*heder*/
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("backgoundIMG.jpg");
+    height: 170vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+.logo{
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+.main{
+    max-width: 1300px;
+}
+/*home*/
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #ffffff;
+    font-size: 70px;
+}
+/*add employee*/
+.display{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-family: Century;
+}
+.display h1{
+    font-size: 40px;
+    color: #ffffff;
+}
+.display h3{
+    color: #ffffff;
+}
+.display input{
+    border: 2px solid #ffffff;
+    padding: 5px 70px;
+    color: darkblue;
+    text-decoration: blink;
+}
+.button{
+    position: absolute;
+    left: 10%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid #ffffff;
+    padding: 10px 30px;
+    color: #ffffff;
+    text-decoration: none;
+}
+/*list employee*/
+.display p p{
+    color: deepskyblue;
+}
+.display p tr td{
+    color: deepskyblue;
+}
+.display p h2{
+    color: #ffffff;
+}
+.display p tr th{
+    color: #ffffff;
+}
+footer{
+    font-family: Century;
+    background-size: cover;
+    background-color: #000000;
+    height: 80px;
+}
+.footer{
+    color: whitesmoke;
+}
+.footer p{
+    top: 10%;
+    left: 10%;
+}
+.footer a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px;
+    border: 1px solid transparent;
+}
+/*btn display edit delete*/
+td .buttonListEmployee ul li{
+    left: 10%;
+    top:10% ;
+}
